@@ -1,0 +1,2011 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta id="viewport" name="viewport"
+        content="user-scalable=0, width=device-width, height=device-height, initial-scale=0.5, maximum-scale=0.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=8,9,10">
+
+
+    <link href="/bundles/css?v=xVMp7TavhLmpk_rk56FXpA3_WUhlV5dhh2ZWT3J5CeI1" rel="stylesheet" />
+
+    <script src="/bundles/js?v=iEjkFpzRy62kFS9VJgI7SPGTlBFF9akBVxoZq5tZTGA1"></script>
+
+    <script src="/bundles1/js?v=wikuqDNmILote5LFrYXB75PxCLIJLHt7GmidTckR7I81"></script>
+
+
+    <script src="/bundles/constants?v=PuINp11INC5VMxnHZb3V5J7Jx4NuXSbya-Wnf5jNayg1"></script>
+
+    <script src="/bundles/gcr-corps-scripts?v=pjz797f5Y3ejLcV9FOa_DlSWnzpDNpp0SU1UU70RvVg1"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>VIRGINIA - SCC</title>
+
+    <style type="text/css">
+        @font-face {
+            font-family: 'Futura-Bold';
+            src: url('../../Themes/VA/fonts/Futura-Bold.woff') format('woff'), url('../../Themes/VA/fonts/Futura-Bold.ttf') format('truetype'), url('../../Themes/VA/fonts/Futura-Bold.otf') format('opentype'), url('../../Themes/VA/fonts/Futura-Bold.eot') format('embedded-opentype');
+        }
+
+
+        @font-face {
+            font-family: 'Nunito-Regular';
+            src: url('../fonts/Nutino/Nunito-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        h1.layoutHeading {
+            font-family: Nunito-Regular !important;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <header class="dash-header navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <h1 class="layoutHeading">State Corporation Commission <br /> Clerk&#39;s Information System</h1>
+                </div>
+                <!--<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 user-section">
+                    <h6>Hi, John Dheere</h6>
+                    <div class="dropdown">
+                        <a class="btn btn-link"><img src="images/cart.png" width="40" height="40"></a>
+                        <a class="btn btn-link logout-button dropdown-toggle" id="menu1" data-bs-target="dropdown">
+                            <img src="images/settings.png" width="25" height="25" alt="Logout">
+                            <img src="images/dropdown.png" width="15" height="15" alt="Settings Dropdown">
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="menu1">
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </header>
+    <div class="content-wrapper">
+
+        <section class="wrapper">
+
+            <style>
+                .btn-menu {
+                    margin-left: -18px !important;
+                }
+
+                .texbox-last {
+                    width: 100%;
+                }
+            </style>
+            <form action="/EntitySearch/Index" method="post">
+
+                <div class="validation-summary-errors error">
+                    <ul>
+                        <li style="display:none"></li>
+                    </ul>
+                </div>
+                <input name="__RequestVerificationToken" type="hidden"
+                    value="atx6_G8vP0Hb3fDqQQsHTvJ10o25Mo7vVf9zlKS-pqaykBNHghT9k-N-MKGT4NwIMq91k14FZaXxdkZLcIWC3p5IOXDy0iv9IA-3aEXNKf41" />
+
+
+                <div><br /><br /><br class="top-div-search" /><br class="top-div-search" /><br
+                        class="top-div-search" /><br class="top-div-search" /><br /></div>
+                <script
+                    src="https://www.google.com/recaptcha/api.js?render=6LdtxWcrAAAAAKvoAZZD9KSKaBAP4hxDtSyeI6rz"></script>
+
+                <script src="/Scripts/gcr-corps-scripts/gcr.corps.entitysearch.js?v=20250718"></script>
+
+                <div class="container" id="QuickSearch">
+                    <div class="data_pannel3 table-responsive" style="margin: 20px 0px !important">
+                        <div class="headerbluecontent_new table-responsive table-responsive-services" id="divBESearch">
+                            <b>Business Entity Search</b>
+                        </div>
+                        <div class="EntitySearchdiv">
+                            <div id="divBusinessEntitySearch">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12 section-title">
+                                        I would like to Search By(enter information in one field below):
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-6 col-xs-12 label-align" style="text-align:right">
+                                        <label class="" for="BEFilingSearch_ddlSearchLogic"
+                                            id="BEFilingSearch_lblSearchType">Select One:</label>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <select Name="BEFilingSearch_SearchLogic"
+                                            class="form-control form-select textbox-width custom_drop_width"
+                                            id="BEFilingSearch_ddlSearchLogic" style="width: 300px;">
+                                            <option value="2">Starts With</option>
+                                            <option value="3">Exact Match</option>
+                                            <option value="7">Contains</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-6 col-xs-12 label-align" style="text-align:right">
+                                        <label class="" for="BusinessSearch_Index_txtBusinessName"
+                                            id="BusinessSearch_Index_rdEntityName">Entity Name:</label>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <input class="textbox-width custom_txt_sm_width"
+                                            id="BusinessSearch_Index_txtBusinessName" maxlength="350"
+                                            selectelement="#rdBusinessName" style="width: 300px;" type="text"></input>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-6 col-xs-12 label-align" style="text-align:right">
+                                        <label class="" for="BusinessSearch_Index_txtBusinessID"
+                                            id="BusinessSearch_Index_rdBusinessID">Entity ID:</label>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <input class="textbox-width custom_txt_sm_width"
+                                            id="BusinessSearch_Index_txtBusinessID" maxlength="8"
+                                            selectelement="#rdBusinessID" style="width: 298px;" type="text"></input>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-6 col-xs-12 label-align" style="text-align:right">
+                                        <label class="" for="BusinessSearch_Index_txtFilingNumber"
+                                            id="BusinessSearch_Index_lblFilingNumber">Filing Number</label>:
+                                    </div>
+                                    <div class="col-md-7 col-sm-6 col-xs-12">
+                                        <input class="text textbox-width custom_txt_sm_width"
+                                            id="BusinessSearch_Index_txtFilingNumber"
+                                            onkeypress="return $v.isAlphaNumericSpace(null, null, event);"
+                                            style="width: 298px;" type="text"></input>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 text-right label-align ">
+                                        <label class="" id="BusinessSearch_Index_rdPrincipalName">Principal
+                                            Name:</label>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                                        <fieldset id="BusinessSearch_Index_PrincipalNameIndividualRadioButtonLegend">
+                                            <span style="float:left;">
+                                                <input checked="checked"
+                                                    id="BusinessSearch_Index_PrincipalNameIndividualRadioButton"
+                                                    name="BusinessSearch_Index_PrincipalNameRadioButtonGroup"
+                                                    type="radio" value="Individual"></input>
+                                                <span id="lblPrincipalNameIndividual">
+                                                    <label checked="checked"
+                                                        for="BusinessSearch_Index_PrincipalNameIndividualRadioButton"
+                                                        id="BusinessSearch_Index_PrincipalNameIndividualLabel"
+                                                        name="BusinessSearch_Index_PrincipalNameIndividualLabel"
+                                                        styles="font-weight: bold;">Individual</label>&nbsp;&nbsp;
+                                                </span>
+                                                <input Length="39"
+                                                    id="BusinessSearch_Index_PrincipalNameEntityRadioButton"
+                                                    name="BusinessSearch_Index_PrincipalNameRadioButtonGroup"
+                                                    type="radio" value="Entity"></input>
+                                                <span id="lblPrincipalNameEntity">
+                                                    <label for="BusinessSearch_Index_PrincipalNameEntityRadioButton"
+                                                        id="BusinessSearch_Index_PrincipalNameEntityLabel"
+                                                        name="BusinessSearch_Index_PrincipalNameEntitylabel"
+                                                        styles="font-weight: bold;">Entity</label>
+                                                </span>
+                                            </span>
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 text-right label-align"><label
+                                            class="" for="BusinessSearch_Index_txtPrincipalFirstName"
+                                            id="BusinessSearch_Index_lblPrincipalFirstName">First Name</label>:</div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 "> <input
+                                            class="textbox-width custom_txt_sm_width"
+                                            id="BusinessSearch_Index_txtPrincipalFirstName" name="" type="text"></input>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2  text-right label-align"> <label
+                                            class="" for="BusinessSearch_Index_txtPrincipalLastName"
+                                            id="BusinessSearch_Index_lblPrincipalLastName">Last Name:</label></div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 "><input
+                                            class="textbox-width custom_txt_sm_width custom_text_width"
+                                            id="BusinessSearch_Index_txtPrincipalLastName"
+                                            name="BusinessSearch_Index_txtPrincipalLastName" type="text"></input></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 text-right label-align ">
+                                        <label class="" id="BusinessSearch_Index_rdAgentName">Registered Agent
+                                            Name:</label>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                                        <fieldset>
+                                            <span style="float:left;">
+                                                <input checked="checked"
+                                                    id="BusinessSearch_Index_AgentNameIndividualRadioButton"
+                                                    name="BusinessSearch_Index_AgentNameRadioButtonGroup" type="radio"
+                                                    value="Individual"></input>
+                                                <span id="lblPrincipalNameIndividual">
+                                                    <label checked="checked"
+                                                        for="BusinessSearch_Index_AgentNameIndividualRadioButton"
+                                                        id="BusinessSearch_Index_AgentNameIndividualLabel"
+                                                        name="BusinessSearch_Index_AgentNameIndividualLabel"
+                                                        styles="font-weight: bold;">Individual</label>&nbsp;&nbsp;
+                                                </span>
+                                                <input Length="39" id="BusinessSearch_Index_AgentNameEntityRadioButton"
+                                                    name="BusinessSearch_Index_AgentNameRadioButtonGroup" type="radio"
+                                                    value="Entity"></input>
+                                                <span id="lblPrincipalNameEntity">
+                                                    <label for="BusinessSearch_Index_AgentNameEntityRadioButton"
+                                                        id="BusinessSearch_Index_AgentNameEntityLabel"
+                                                        name="BusinessSearch_Index_AgentNameEntitylabel"
+                                                        styles="font-weight: bold;">Entity</label>
+                                                </span>
+                                            </span>
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 text-right label-align"> <label
+                                            class="" for="BusinessSearch_Index_txtAgentFirstName"
+                                            id="BusinessSearch_Index_lblAgentFirstName">First Name</label>: </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 "><input
+                                            class="textbox-width custom_txt_sm_width"
+                                            id="BusinessSearch_Index_txtAgentFirstName" name="" type="text"></input>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2  text-right label-align"> <label
+                                            class="" for="BusinessSearch_Index_txtAgentLastName"
+                                            id="BusinessSearch_Index_lblAgentLastName">Last Name:</label> </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 "><input
+                                            class="textbox-width custom_txt_sm_width custom_text_width"
+                                            id="BusinessSearch_Index_txtAgentLastName"
+                                            name="BusinessSearch_Index_txtDesigneeLastName" type="text"></input> </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 text-right label-align ">
+                                        <label class="" id="BusinessSearch_Index_rdDesigneeName">Designee Name:</label>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-4 text-right label-align"> <label
+                                            class="" for="BusinessSearch_Index_txtDesigneeFirstName"
+                                            id="BusinessSearch_Index_lblDesigneeFirstName">First Name</label>: </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 "><input
+                                            class="textbox-width custom_txt_sm_width"
+                                            id="BusinessSearch_Index_txtDesigneeFirstName" name="" type="text"></input>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2  text-right label-align"> <label
+                                            class="" for="BusinessSearch_Index_txtDesigneeLastName"
+                                            id="BusinessSearch_Index_lblDesigneeLastName">Last Name:</label> </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 "><input
+                                            class="textbox-width custom_txt_sm_width custom_text_width"
+                                            id="BusinessSearch_Index_txtDesigneeLastName"
+                                            name="BusinessSearch_Index_txtDesigneeLastName" type="text"></input> </div>
+                                </div>
+                            </div>
+                            <div class="row" id="divAdvancedSearch">
+                                <div class="col-xs-12 col-sm-8 col-md-4 col-lg-3 label-align"
+                                    style="text-align: right; text-decoration: underline; padding-right: 7%;"
+                                    id="AdCheck">
+                                    <span id="AdhvanceClk" style="color: #069bf1; font-weight:bold;"><a href="#"
+                                            onclick="Toggle()">Advanced Search Options</a></span>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="row" id="AdvnneSrchOptns" style="display:none;">
+                                    <div class="row">
+                                        <div class="row">
+                                            <div class="col-md-12 section-title">
+                                                Advanced Search Options(entry may be made in all fields to narrow return
+                                                results)
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-2 col-sm-6 col-xs-12 text-right label-align"
+                                                style="text-align:right">
+                                                <label for="BEFilingSearch_ddlBusinessEntityType">Entity Type:</label>
+                                            </div>
+                                            <div class="col-sm-6 col-md-4">
+                                                <select Name="BEFilingSearch_ddlBusinessEntityType"
+                                                    class="form-control form-select textbox-width custom_txt_sm_width"
+                                                    id="BEFilingSearch_ddlBusinessEntityType" style="">
+                                                    <option selected="selected" value="">-- All --</option>
+                                                    <option value="1">Limited Liability Company</option>
+                                                    <option value="2">Stock Corporation</option>
+                                                    <option value="3">Limited Partnership</option>
+                                                    <option value="5">General Partnership</option>
+                                                    <option value="6">Public Service Authority</option>
+                                                    <option value="7">Business Trust</option>
+                                                    <option value="8">Nonstock Corporation</option>
+                                                    <option value="10">Miscellaneous</option>
+                                                    <option value="11">Protected Series</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row" id="dvSeriesLLCHideShow">
+                                            <div class="col-md-2 col-sm-6 col-xs-12 text-right label-align"
+                                                style="text-align:right">
+                                                <input id="BusinessSearch_Index_SeriesLLC"
+                                                    name="BusinessSearch_Index_SearchLLCGroup" type="checkbox"
+                                                    value="Search only Series LLC"></input>
+
+                                            </div>
+                                            <div class="col-sm-6 col-md-4">
+                                                <label for="BusinessSearch_Index_SeriesLLC"
+                                                    id="BusinessSearch_Index_SeriesLLCLabel"
+                                                    name="BusinessSearch_Index_SeriesLLCCheckboxLabel"
+                                                    styles="font-weight: bold;">Search only Series
+                                                    LLC</label>&nbsp;&nbsp;
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-2 col-sm-6 col-xs-12 text-right label-align"
+                                                style="text-align:right">
+                                                <label for="BEFilingSearch_ddlDocumentType">Document Type:</label>
+                                            </div>
+                                            <div class="col-sm-6 col-md-4">
+                                                <select Name="BEFilingSearch_ddlDocumentType"
+                                                    class="form-control form-select textbox-width custom_txt_sm_width"
+                                                    id="BEFilingSearch_ddlDocumentType" style="">
+                                                    <option selected="selected" value="">-- All --</option>
+                                                    <option value="2234">Administrative Conversion</option>
+                                                    <option value="1">Amended and Restated Certificate of Limited
+                                                        Partnership</option>
+                                                    <option value="2">Amended Application for a Certificate of
+                                                        Registration</option>
+                                                    <option value="1072">Amended Application for Registration</option>
+                                                    <option value="1062">Amended Application for Registration as a
+                                                        Foreign Business Trust</option>
+                                                    <option value="1063">Amended Application for Registration as a
+                                                        Foreign Business Trust In-House P</option>
+                                                    <option value="1076">Amended Application for Registration as a
+                                                        Foreign LLC</option>
+                                                    <option value="2248">Amended Application for Registration as a
+                                                        Foreign Protected Series</option>
+                                                    <option value="1067">Amendment for Public Service Authority</option>
+                                                    <option value="1070">Amendment to General Partnership Statement
+                                                    </option>
+                                                    <option value="3">Amendment to Partnership Statement</option>
+                                                    <option value="4">Annual Continuation Report</option>
+                                                    <option value="5">Annual Report</option>
+                                                    <option value="1078">Annual Report Corporation</option>
+                                                    <option value="6">Application for a Certificate of Authority to
+                                                        Transact Business in Virginia</option>
+                                                    <option value="7">Application for a Certificate of Cancellation
+                                                    </option>
+                                                    <option value="2251">Application for a Certificate of Cancellation
+                                                        of a Foreign Protected Series</option>
+                                                    <option value="8">Application for a Certificate of Registration
+                                                    </option>
+                                                    <option value="9">Application for an Amended Certificate of
+                                                        Authority</option>
+                                                    <option value="2236">Application for Certificate of Registration as
+                                                        a Foreign Protected Series</option>
+                                                    <option value="10">Application for Certificate of Withdrawal
+                                                    </option>
+                                                    <option value="11">Application for Registration of Corporate Name
+                                                    </option>
+                                                    <option value="12">Application for Renewal of Registered Name
+                                                    </option>
+                                                    <option value="13">Application for Renewal of Reserved Name</option>
+                                                    <option value="15">Application for Reservation of Name</option>
+                                                    <option value="2265">Appointment of Resident Agent by Nonresident
+                                                        Property Owner</option>
+                                                    <option value="16">Articles of Amendment</option>
+                                                    <option value="17">Articles of Cancellation</option>
+                                                    <option value="21">Articles of Conversion</option>
+                                                    <option value="18">Articles of Correction</option>
+                                                    <option value="19">Articles of Dissolution</option>
+                                                    <option value="20">Articles of Domestication</option>
+                                                    <option value="26">Articles of Domestication</option>
+                                                    <option value="22">Articles of Incorporation</option>
+                                                    <option value="2084">Articles of Incorporation - Professional Stock
+                                                    </option>
+                                                    <option value="23">Articles of Incorporation Surrender</option>
+                                                    <option value="24">Articles of Merger</option>
+                                                    <option value="25">Articles of Organization</option>
+                                                    <option value="2085">Articles of Organization - Professional LLC
+                                                    </option>
+                                                    <option value="2264">Articles of Organization Surrender</option>
+                                                    <option value="2262">Articles of Ratification</option>
+                                                    <option value="27">Articles of Restatement</option>
+                                                    <option value="28">Articles of Revocation of Dissolution</option>
+                                                    <option value="29">Articles of Share Exchange</option>
+                                                    <option value="30">Articles of Termination</option>
+                                                    <option value="31">Articles of Trust</option>
+                                                    <option value="2082">Articles of Trust Surrender</option>
+                                                    <option value="1077">Cancellation of Filing</option>
+                                                    <option value="32">Cancellation of Partnership Statement</option>
+                                                    <option value="2088">Case Copies</option>
+                                                    <option value="33">Certificate of Amendment of a Certificate of
+                                                        Limited Partnership</option>
+                                                    <option value="34">Certificate of Cancellation</option>
+                                                    <option value="35">Certificate of Limited Partnership</option>
+                                                    <option value="2224">Director Resignation</option>
+                                                    <option value="36">Dissolution</option>
+                                                    <option value="1080">Document Review</option>
+                                                    <option value="1068">Fictitious Name Certificate</option>
+                                                    <option value="2081">Fictitious Name Certificates</option>
+                                                    <option value="1069">Fictitious Name Release</option>
+                                                    <option value="37">Foreign Conversion</option>
+                                                    <option value="38">Foreign Merger</option>
+                                                    <option value="39">Garnishment Designation</option>
+                                                    <option value="40">Joinder</option>
+                                                    <option value="2139">LLP Restoration</option>
+                                                    <option value="41">Merger</option>
+                                                    <option value="2252">Merger - Statement of Designation Change
+                                                    </option>
+                                                    <option value="2253">Merger - Statement of Protected Series
+                                                        Designation</option>
+                                                    <option value="2089">Miscellaneous Document</option>
+                                                    <option value="42">Notice of Transfer of a Registered Name</option>
+                                                    <option value="43">Notice of Transfer of a Reserved Name</option>
+                                                    <option value="2216">Pre-CIS Mainframe Documents</option>
+                                                    <option value="44">Public Service Authority Amendment</option>
+                                                    <option value="45">Public Service Authority Formation</option>
+                                                    <option value="46">Reentry</option>
+                                                    <option value="47">Registration Fee</option>
+                                                    <option value="48">Reinstatement</option>
+                                                    <option value="1065">Release of Name Registration</option>
+                                                    <option value="2080">Renan Test Application</option>
+                                                    <option value="49">Renewal of a Statement of Partnership Authority
+                                                    </option>
+                                                    <option value="50">Revocation of Dissolution</option>
+                                                    <option value="1074">Service Authority Dissolution</option>
+                                                    <option value="1075">Service Authority Termination</option>
+                                                    <option value="1073">Service Authority Withdrawal</option>
+                                                    <option value="2263">Statement of Abandonment</option>
+                                                    <option value="60">Statement of Amendment of a Statement of
+                                                        Registration of a Registered LLP</option>
+                                                    <option value="1066">Statement of Cancellation</option>
+                                                    <option value="2156">Statement of Cancellation of a Statement of
+                                                        Registration</option>
+                                                    <option value="2208">Statement of Cancellation of Registration
+                                                    </option>
+                                                    <option value="51">Statement of Change of Registered Office and/or
+                                                        Registered Agent</option>
+                                                    <option value="52">Statement of Denial</option>
+                                                    <option value="61">Statement of Denial for Partnership</option>
+                                                    <option value="2247">Statement of designation cancellation</option>
+                                                    <option value="2244">Statement of designation change</option>
+                                                    <option value="53">Statement of Dissociation</option>
+                                                    <option value="54">Statement of Dissolution</option>
+                                                    <option value="2232">Statement of Merger</option>
+                                                    <option value="55">Statement of Partnership Authority</option>
+                                                    <option value="1064">Statement of Principal Office Change</option>
+                                                    <option value="2235">Statement of Protected Series Designation
+                                                    </option>
+                                                    <option value="56">Statement of Registration</option>
+                                                    <option value="57">Statement of Resignation of Registered Agent
+                                                    </option>
+                                                    <option value="58">Termination</option>
+                                                    <option value="59">Withdrawal</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-2 col-sm-6 col-xs-12 text-right label-align"
+                                                style="text-align:right">
+                                                <label class="" for="BEFilingSearch_ddlJurisdictionType"
+                                                    id="BusinessSearch_Index_JurisdictionType">Jurisdiction
+                                                    Type:</label>
+                                            </div>
+                                            <div class="col-sm-6 col-md-4">
+                                                <select Name="BEFilingSearch_ddlJurisdictionType"
+                                                    class="form-control form-select textbox-width custom_txt_sm_width"
+                                                    id="BEFilingSearch_ddlJurisdictionType" style="">
+                                                    <option selected="selected" value="">-- All --</option>
+                                                    <option value="D">Virginia</option>
+                                                    <option value="F">Foreign</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-2 col-sm-6 col-xs-12 text-right label-align"
+                                                style="text-align:right">
+                                                <label for="BEFilingSearch_ddlBusinessEntityStatusType">Entity
+                                                    Status:</label>
+                                            </div>
+                                            <div class="col-sm-6 col-md-4">
+                                                <select Name="BEFilingSearch_ddlBusinessEntityStatusType"
+                                                    class="form-control form-select textbox-width custom_txt_sm_width"
+                                                    id="BEFilingSearch_ddlBusinessEntityStatusType" style="">
+                                                    <option selected="selected" value="">-- All --</option>
+                                                    <option value="1">Pending Active</option>
+                                                    <option value="2">Active</option>
+                                                    <option value="3">Inactive</option>
+                                                    <option value="4">Pending Inactive</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-2 col-sm-6 col-xs-12 text-right label-align"
+                                                style="text-align:right">
+                                                <label for="BEFilingSearch_ddlBusinessNameType">Name Type:</label>
+                                            </div>
+                                            <div class="col-sm-6 col-md-4">
+                                                <select Name="BEFilingSearch_ddlBusinessNameType"
+                                                    class="form-control form-select textbox-width custom_txt_sm_width"
+                                                    id="BEFilingSearch_ddlBusinessNameType" style="">
+                                                    <option selected="selected" value="">-- All --</option>
+                                                    <option value="1">Fictitious Name</option>
+                                                    <option value="2">Legal Name</option>
+                                                    <option value="3">Previous Legal Name</option>
+                                                    <option value="4">Reserved Name</option>
+                                                    <option value="6">Designated Name</option>
+                                                    <option value="8">Registered Name</option>
+                                                    <option value="9">Former Name</option>
+                                                    <option value="11">Former Designated Name</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-2 col-sm-6 col-xs-12 text-right label-align"
+                                                style="text-align:right">
+                                                <label for="BEFilingSearch_ddlIndustryCodeType">Industry Code:</label>
+                                            </div>
+                                            <div class="col-sm-6 col-md-4">
+                                                <select Name="BEFilingSearch_ddlIndustryCodeType"
+                                                    class="form-control form-select textbox-width custom_txt_sm_width"
+                                                    id="BEFilingSearch_ddlIndustryCodeType" style="">
+                                                    <option selected="selected" value="">-- All --</option>
+                                                    <option value="0">0 - General</option>
+                                                    <option value="11">11 - Electric</option>
+                                                    <option value="12">12 - Telephone</option>
+                                                    <option value="13">13 - Gas</option>
+                                                    <option value="14">14 - Water</option>
+                                                    <option value="15">15 - Water-sewer</option>
+                                                    <option value="16">16 - Sewer</option>
+                                                    <option value="18">18 - Radio common carrier</option>
+                                                    <option value="20">20 - Banks and credit unions</option>
+                                                    <option value="22">22 - Federal banks</option>
+                                                    <option value="23">23 - Bank w/limited certificate</option>
+                                                    <option value="25">25 - Bank & insurance agent</option>
+                                                    <option value="26">26 - Mrtg/insurance</option>
+                                                    <option value="30">30 - Insurance companies</option>
+                                                    <option value="31">31 - Insurance consultants</option>
+                                                    <option value="35">35 - Insurance agencies</option>
+                                                    <option value="36">36 - Mortgage co</option>
+                                                    <option value="40">40 - Other financial institutions</option>
+                                                    <option value="41">41 - Insurance regulated entities</option>
+                                                    <option value="42">42 - Ins company & ins agency</option>
+                                                    <option value="43">43 - Ins company & ins reg entity</option>
+                                                    <option value="50">50 - Other public service</option>
+                                                    <option value="51">51 - Railways</option>
+                                                    <option value="60">60 - Other charitable institutions</option>
+                                                    <option value="61">61 - Foundations</option>
+                                                    <option value="62">62 - Volunteer rescue squads/fire depts</option>
+                                                    <option value="63">63 - Religious cemeteries</option>
+                                                    <option value="64">64 - Orphanages</option>
+                                                    <option value="65">65 - Churches and religious denominations
+                                                    </option>
+                                                    <option value="66">66 - Animal and children's welfare</option>
+                                                    <option value="67">67 - Special hospitals and colleges</option>
+                                                    <option value="68">68 - Historical/literary societies</option>
+                                                    <option value="69">69 - Arts and sciences</option>
+                                                    <option value="70">70 - Other duly licensed professional entity not
+                                                        listed below as specified in section 13.1-543 of the code of
+                                                        virginia</option>
+                                                    <option value="71">71 - Practitioners of the healing arts</option>
+                                                    <option value="72">72 - Attorneys-at-law</option>
+                                                    <option value="73">73 - Architects</option>
+                                                    <option value="74">74 - Audiologists</option>
+                                                    <option value="75">75 - Speech pathologists</option>
+                                                    <option value="76">76 - Clinical nurse specialists</option>
+                                                    <option value="80">80 - Agricultural cooperatives</option>
+                                                    <option value="81">81 - Other cooperatives</option>
+                                                    <option value="84">84 - Water & sewer</option>
+                                                    <option value="85">85 - Community development</option>
+                                                    <option value="86">86 - Wireless service (broadband)</option>
+                                                    <option value="89">89 - Other authorities</option>
+                                                    <option value="95">95 - Benefit corporations</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-2 col-sm-6 col-xs-12 text-right label-align">
+                                                <label for="BEFilingSearch_txtFilingDateFrom">Date of Formation:
+                                                    Start</label>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-5 col-md-3 col-lg-3 "
+                                                style="padding-bottom: 10px;">
+                                                <div class="input-group date"
+                                                    style="padding-left: 5px;padding-right: 6px;"
+                                                    data-hide-on-readonly="true">
+                                                    <input
+                                                        class="form-control dateFromMask cust_date_txt_width custom_sm_date_width"
+                                                        disabledrule="{&#39;Enter valid Start Date&#39;,&#39;date:MM/dd/yyyy&#39;, &#39;customrequired&#39;}"
+                                                        id="BEFilingSearch_txtFilingDateFrom"
+                                                        name="BEFilingSearch_txtFilingDateFrom" onblur="ClearYearfrom()"
+                                                        size="10" style="z-index:auto" type="text"></input>
+                                                    <span
+                                                        class="input-group-addon CustomDatePickerFrom cust_date_width">
+                                                        <span class="bi bi-calendar-date"></span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 col-sm-6 col-xs-12 text-right label-align">
+                                                <label for="BEFilingSearch_txtFilingDateTo">End</label>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-5 col-md-3 col-lg-3 ">
+                                                <div class="input-group date"
+                                                    style="padding-left: 5px;padding-right: 6px;"
+                                                    data-hide-on-readonly="true">
+                                                    <input
+                                                        class="form-control dateToMask cust_date_txt_width custom_sm_date_width"
+                                                        disabledrule="{&#39;Enter valid End Date&#39;,&#39;date:MM/dd/yyyy&#39;, &#39;customrequired&#39;}"
+                                                        id="BEFilingSearch_txtFilingDateTo"
+                                                        name="BEFilingSearch_txtFilingDateTo" onblur="clearYearTo()"
+                                                        size="10" style="z-index:auto" type="text"></input>
+                                                    <span class="input-group-addon CustomDateToPicker cust_date_width">
+                                                        <span class="bi bi-calendar-date"></span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div
+                                                class="col-xs-12 col-sm-offset-4  col-sm-4  col-md-offset-1 col-md-3 col-lg-3 text-right custom_rd_align">
+                                                <input id="BusinessSearch_Index_PrincipalOfficeAddress"
+                                                    name="BusinessSearch_Index_AddressGroup" type="checkbox"
+                                                    value="Principal Office Address"></input>
+                                                <span id="lblPrincipalOfficeAddress">
+                                                    <label for="BusinessSearch_Index_PrincipalOfficeAddress"
+                                                        id="BusinessSearch_Index_AgentNameIndividualLabel"
+                                                        name="BusinessSearch_Index_PrincipalOfficeAddressCheckboxLabel"
+                                                        styles="font-weight: bold;">Principal Office
+                                                        Address</label>&nbsp;&nbsp;
+                                                </span>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 col-md-3 text-left">
+                                                <input id="BusinessSearch_Index_RegisteredOfficeAddress"
+                                                    name="BusinessSearch_Index_BusinessSearch_Index_AddressGroup"
+                                                    type="checkbox" value="Registered Office Address"></input>
+                                                <span id="lblPrincipalNameEntity">
+                                                    <label for="BusinessSearch_Index_RegisteredOfficeAddress"
+                                                        id="BusinessSearch_Index_RegisteredOfficeLabel"
+                                                        name="BusinessSearch_Index_RegisteredOfficeAddressCheckboxLabel"
+                                                        styles="font-weight: bold;">Registered Office Address</label>
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="row" id="address" hidden="hidden">
+                                            <div class="col-md-2 col-sm-6 col-xs-12 text-right label-align"
+                                                style="text-align:right">
+                                                <label for="txtStreetAddress1">Address Line 1:</label>
+                                            </div>
+                                            <div class="col-sm-6 col-md-2" style="align:left">
+                                                <input type="text"
+                                                    class="form-control textbox-width custom_txt_sm_width"
+                                                    name="txtStreetAddress1" id="txtStreetAddress1" maxlength="200"
+                                                    style="width: 250px;" />
+                                            </div>
+                                        </div>
+
+                                        <div class="row" id="cityzip" hidden="hidden">
+                                            <div class="col-md-2 col-sm-6 col-xs-12 col-lg-2 text-right label-align"
+                                                style="text-align:right">
+                                                <label for="txtCity">City:</label>
+                                            </div>
+                                            <div class="col-sm-6 col-md-2 col-lg-2">
+                                                <input type="text"
+                                                    class="form-control textbox-width custom_txt_sm_width"
+                                                    name="txtCity" id="txtCity" maxlength="100"
+                                                    style="width: 250px;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            </div>
+                                            <div class="col-md-3 col-sm-6 col-xs-12 col-lg-2 text-right label-align"
+                                                style="text-align:right">
+                                                <label for="txtZipCode">Zip Code:</label>
+                                            </div>
+                                            <div class="col-sm-6 col-md-2">
+                                                <input type="text" name="txtZipCode" id="txtZipCode" maxlength="5"
+                                                    style="width: 100px;" />
+                                                <input type="hidden" name="txtzip4" id="txtzip4" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5 col-sm-6 col-xs-12 text-right label-align">
+                    </div>
+                    <div class="col-md-7">
+                        <input type="button" name="btnSearch" id="btnSearch"
+                            data-sitekey="6LdtxWcrAAAAAKvoAZZD9KSKaBAP4hxDtSyeI6rz" data-callback="onSubmit"
+                            value="Search" class="button" title="Search" />
+                        <input class="button" id="BusinessSearch_Index_btnReset" name="btnReset" onclick="clearValues()"
+                            title="Clear" type="button" value="Clear"></input>
+                        <input type="hidden" id="LoadingAnimation" class="loading" />
+                        <input type="hidden" id="hdnErrorMessage"
+                            value="Your Search Criteria returns 1024 results which is more than 500 results. Click OK to display all records or click Cancel to display the first 500 records only." />
+                        <input class="button" id="BusinessSearch_Back_To_Login" name="" onclick="BackToLogin()"
+                            type="button" value="Back to Login"></input> <input type="hidden" id="hdnIsDownloadReports"
+                            name="hdnIsDownloadReports" />
+                    </div>
+                </div>
+                <div>
+                    <iframe id="frmTemp" name="frmTemp" style="display: none"></iframe>
+                </div>
+            </form>
+            <link href="/Themes/Default/CSS/images/styles-rep.css" rel="stylesheet" />
+            <link href="/Themes/Default/CSS/styles-trep.css" rel="stylesheet" />
+
+            <div><br /><br /><br /><br /><br /></div>
+            <style>
+                .row {
+                    padding-top: 8px;
+                }
+
+                .button {
+                    border-radius: 24px;
+                }
+            </style>
+            <script type="text/javascript">
+
+                $(document).ready(function () {
+                    $('#dvSeriesLLCHideShow').hide();
+                    //Added for Download Reports section hiding and showing.
+                    if ('False' != ''
+                        && 'False' != null
+                        && 'False' == 'True') {
+                        $('#divBESearch').hide();
+                        $('#divBusinessEntitySearch').hide();
+                        $('#divAdvancedSearch').hide();
+                        $('#AdvnneSrchOptns').show();
+                        $('#hdnIsDownloadReports').val('False');
+                    }
+                    else {
+                        $('#divBESearch').show();
+                        $('#divBusinessEntitySearch').show();
+                        $('#divAdvancedSearch').show();
+                        $('#AdvnneSrchOptns').hide();
+                        $('#hdnIsDownloadReports').val('');
+                    }
+
+                    $("#txtZipCode").on("change", function () {
+
+                        var ZipCode = $("#txtZipCode").val();
+                        var ddlcity = $('#txtCity').val();
+                        if (ZipCode.replace(/[^0-9]/g, '').trim().length == 5) {
+                            $.ajax({
+                                url: '../Registration/GetStateDetail',
+                                type: 'POST',
+                                data: { zip: ZipCode },
+                                success: function (data) {
+                                    var result = JSON.parse(data);
+                                    if (result != null) {
+                                        if (result.length > 1) {
+                                            $('#txtCity').val('');
+                                            $('#txtCity').html('');
+                                            var element = "<select id='txtCity' maxlength='100' style='width: 250px;' class = 'form-control textbox-width custom_txt_sm_width' name='txtCity'><option value='" + "" + "'>" + "-- Select --" + "</option>";
+                                            $.each(result, function (index, res) {
+                                                element += "<option value='" + res.City + "'>" + res.City?.trim() + "</option>";
+                                            });
+                                            element += "</select>";
+                                            $('#txtCity').replaceWith(element);
+
+                                        }
+                                        else
+                                            if (result.length > 0) {
+                                                var ddlcity = result[0].City;
+                                                $('#txtCity').val(ddlcity);
+                                            }
+                                            else {
+
+                                                swal({ title: "", text: "Please enter a valid  Zip Code", type: "warning" }, function () { $("#txtZipCode").val(''); });
+                                                $('#txtCity').val("");
+                                            }
+                                    }
+                                    else {
+                                        $('#txtCity').val("");
+                                    }
+                                },
+                                error: function (data) { }
+                            });
+                        }
+                        else {
+                            var element = "<input id='txtCity' maxlength='100' class='form-control textbox-width custom_txt_sm_width' style='width: 250px;' type='text'  />";
+                            $("[name=txtCity]").replaceWith(element);
+                            swal({ title: "", text: "Please enter a valid  Zip Code", type: "warning" }, function () { $("#txtZipCode").val(''); });
+                            $("#txtZipCode").val('');
+                            $('#txtCity').val("");
+                        }
+                    });
+
+                    $('#BEFilingSearch_ddlSearchLogic').prop("selectedIndex", 0);
+                    var nagOk = function () {
+                        return {
+                            Run: function () { }
+                        }
+                    }
+                    var NavigationOK = nagOk();
+
+                    var nagCancel = function () {
+                        return {
+                            Run: function () { $("#txtZipCode").val(''); }
+                        }
+                    }
+                    var NavigationCancel = nagCancel();
+                    $("#BEFilingSearch_ddlBusinessEntityType").on("change", function () {
+                        if ($('#BEFilingSearch_ddlBusinessEntityType').val() == "1") {
+                            $('#dvSeriesLLCHideShow').show();
+                        } else {
+                            $('#dvSeriesLLCHideShow').hide();
+                            $("#BusinessSearch_Index_SeriesLLC").prop("checked", false);
+                        }
+                        var categoryIds = '';
+                        categoryIds = $("#BEFilingSearch_ddlBusinessEntityType").val();
+
+                        $.ajax({
+                            url: '/BusinessSearch/GetDocumentFilingTypes',
+                            type: "POST",
+                            async: false,
+                            data: {
+                                BusinessClassification: categoryIds,
+                            },
+                            success: function (data) {
+
+                                $("#BEFilingSearch_ddlDocumentType").empty();
+                                var result = JSON.parse(data);
+
+                                $.each(result, function (index, res) {
+                                    $("#BEFilingSearch_ddlDocumentType").append("<option value='" + res.Key + "'>" + res.Value?.trim() + "</option>");
+                                });
+
+                            },
+                            error: function (jqXHR, textStatus, errorThrown) {
+                                errorDialog(errorThrown);
+                            }
+                        });
+                    });
+
+                    $('#BEFilingSearch_txtFilingDateFrom').datepicker({
+                        autoclose: true
+                    });
+                    $(".dateFromMask").mask('99/99/9999');
+                    $('.CustomDatePickerFrom').on('click', function () {
+                        $('#BEFilingSearch_txtFilingDateFrom').datepicker('show');
+                    });
+
+                    $('#BEFilingSearch_txtFilingDateTo').datepicker({
+                        autoclose: true
+                    });
+                    $(".dateToMask").mask('99/99/9999');
+                    $('.CustomDateToPicker').on('click', function () {
+                        $('#BEFilingSearch_txtFilingDateTo').datepicker('show');
+                    });
+                });
+
+                // validating Start Date
+                function ClearYearfrom() {
+                    var chkDate = $('#BEFilingSearch_txtFilingDateFrom').val();
+                    var exp_date = /^\d{1,2}(\/)\d{1,2}\1\d{4}$/;
+                    var flag = (String(chkDate).search(exp_date) != -1);
+                    if (flag) {
+                        var datePartAr = chkDate.split('/');
+                        var y, m, d;
+                        m = datePartAr[0]; d = datePartAr[1]; y = datePartAr[2];
+                        m = eval(m.toString()) - 1;
+                        var tempDate = new Date(parseInt(y), parseInt(m), parseInt(d, 10));
+                        var r_y = (tempDate.getYear() < 1000) ? (tempDate.getYear() + 1900) : tempDate.getYear();
+                        if ((r_y == y) &&
+                            (m == tempDate.getMonth()) &&
+                            (d == tempDate.getDate())) {
+                            return true;
+                        }
+                        else if ($('#BEFilingSearch_txtFilingDateFrom').val() == null) {
+                            swal({ title: "", text: "Enter Start Date", type: "warning" })
+                        }
+                        else {
+                            swal({
+                                title: "", text: "Enter Valid Start Date", type: "warning"
+                            });
+
+                            $('#BEFilingSearch_txtFilingDateFrom').val('');
+
+                        }
+                    }
+                }
+
+                // validating End Date
+                function clearYearTo() {
+                    var chkDate = $('#BEFilingSearch_txtFilingDateTo').val();
+                    var exp_date = /^\d{1,2}(\/)\d{1,2}\1\d{4}$/;
+                    var flag = (String(chkDate).search(exp_date) != -1);
+                    if (flag) {
+                        var datePartAr = chkDate.split('/');
+                        var y, m, d;
+                        m = datePartAr[0]; d = datePartAr[1]; y = datePartAr[2];
+                        m = eval(m.toString()) - 1;
+                        var tempDate = new Date(parseInt(y), parseInt(m), parseInt(d, 10));
+                        var r_y = (tempDate.getYear() < 1000) ? (tempDate.getYear() + 1900) : tempDate.getYear();
+                        if ((r_y == y) &&
+                            (m == tempDate.getMonth()) &&
+                            (d == tempDate.getDate())) {
+                            return true;
+                        }
+                        else if ($('#BEFilingSearch_txtFilingDateTo').val() == null) {
+                            swal({ title: "", text: "Enter End Date", type: "warning" })
+                        }
+
+
+                        else {
+                            swal({
+                                title: "", text: "Enter Valid End Date", type: "warning"
+                            });
+
+                            $('#BEFilingSearch_txtFilingDateTo').val('');
+
+                        }
+                    }
+                }
+
+                /*********************************************************/
+                // below clears any previous entries for the Express Search;
+                // they are mutually exclusive paths in the search
+                /*********************************************************/
+                $('#BusinessSearch_Index_txtBusinessName').on('blur', function () {
+                    if ($('#BusinessSearch_Index_txtBusinessName').val()?.trim()?.length > 0) {
+                        $('#BusinessSearch_Index_txtBusinessID').val('');
+                        $('#BusinessSearch_Index_txtPrincipalFirstName').val('');
+                        $('#BusinessSearch_Index_txtPrincipalLastName').val('');
+                        $('#BusinessSearch_Index_txtAgentFirstName').val('');
+                        $('#BusinessSearch_Index_txtAgentLastName').val('');
+                        $('#BusinessSearch_Index_txtFilingNumber').val('');
+                        $('#BusinessSearch_Index_AgentNameIndividualRadioButton').attr('checked', true);
+                        $('#BusinessSearch_Index_PrincipalNameIndividualRadioButton').attr('checked', true);
+                        $('#BusinessSearch_Index_PrincipalNameEntityRadioButton').attr('checked', false);
+                        $('#BusinessSearch_Index_AgentNameEntityRadioButton').attr('checked', false);
+                        $("#BusinessSearch_Index_PrincipalNameIndividualRadioButton").trigger('click');
+                        $("#BusinessSearch_Index_AgentNameIndividualRadioButton").trigger('click');
+                        $('#BusinessSearch_Index_txtDesigneeFirstName').val('');
+                        $('#BusinessSearch_Index_txtDesigneeLastName').val('');
+                    }
+                })
+
+
+                $('#BusinessSearch_Index_txtBusinessID').on('blur', function () {
+                    if ($('#BusinessSearch_Index_txtBusinessID').val()?.trim()?.length > 0) {
+                        $('#BusinessSearch_Index_txtBusinessName').val('');
+                        $('#BusinessSearch_Index_txtPrincipalFirstName').val('');
+                        $('#BusinessSearch_Index_txtPrincipalLastName').val('');
+                        $('#BusinessSearch_Index_txtAgentFirstName').val('');
+                        $('#BusinessSearch_Index_txtAgentLastName').val('');
+                        $('#BusinessSearch_Index_txtFilingNumber').val('');
+                        $('#BusinessSearch_Index_AgentNameIndividualRadioButton').attr('checked', true);
+                        $('#BusinessSearch_Index_PrincipalNameIndividualRadioButton').attr('checked', true);
+                        $('#BusinessSearch_Index_PrincipalNameEntityRadioButton').attr('checked', false);
+                        $('#BusinessSearch_Index_AgentNameEntityRadioButton').attr('checked', false);
+                        $("#BusinessSearch_Index_PrincipalNameIndividualRadioButton").trigger('click');
+                        $("#BusinessSearch_Index_AgentNameIndividualRadioButton").trigger('click');
+                        $('#BusinessSearch_Index_txtDesigneeFirstName').val('');
+                        $('#BusinessSearch_Index_txtDesigneeLastName').val('');
+                    }
+                })
+
+                $('#BusinessSearch_Index_txtPrincipalFirstName').on('blur', function () {
+                    if ($('#BusinessSearch_Index_txtPrincipalFirstName').val()?.trim()?.length > 0) {
+                        $('#BusinessSearch_Index_txtBusinessID').val('');
+                        $('#BusinessSearch_Index_txtBusinessName').val('');
+                        $('#BusinessSearch_Index_txtAgentFirstName').val('');
+                        $('#BusinessSearch_Index_txtAgentLastName').val('');
+                        $('#BusinessSearch_Index_txtFilingNumber').val('');
+                        $('#BusinessSearch_Index_AgentNameIndividualRadioButton').attr('checked', true);
+                        $('#BusinessSearch_Index_AgentNameEntityRadioButton').attr('checked', false);
+                        $("#BusinessSearch_Index_AgentNameIndividualRadioButton").trigger('click');
+                        $('#BusinessSearch_Index_txtDesigneeFirstName').val('');
+                        $('#BusinessSearch_Index_txtDesigneeLastName').val('');
+                    }
+                })
+
+                $('#BusinessSearch_Index_txtPrincipalLastName').on('blur', function () {
+                    if ($('#BusinessSearch_Index_txtPrincipalLastName').val()?.trim()?.length > 0) {
+                        $('#BusinessSearch_Index_txtBusinessID').val('');
+                        $('#BusinessSearch_Index_txtBusinessName').val('');
+                        $('#BusinessSearch_Index_txtAgentFirstName').val('');
+                        $('#BusinessSearch_Index_txtAgentLastName').val('');
+                        $('#BusinessSearch_Index_txtFilingNumber').val('');
+                        $('#BusinessSearch_Index_AgentNameIndividualRadioButton').attr('checked', true);
+                        $('#BusinessSearch_Index_AgentNameEntityRadioButton').attr('checked', false);
+                        $("#BusinessSearch_Index_AgentNameIndividualRadioButton").trigger('click');
+                        $('#BusinessSearch_Index_txtDesigneeFirstName').val('');
+                        $('#BusinessSearch_Index_txtDesigneeLastName').val('');
+
+                    }
+                })
+
+                $('#BusinessSearch_Index_txtAgentFirstName').on('blur', function () {
+                    if ($('#BusinessSearch_Index_txtAgentFirstName').val()?.trim()?.length > 0) {
+                        $('#BusinessSearch_Index_txtBusinessID').val('');
+                        $('#BusinessSearch_Index_txtBusinessName').val('');
+                        $('#BusinessSearch_Index_txtFilingNumber').val('');
+                        $('#BusinessSearch_Index_txtPrincipalFirstName').val('');
+                        $('#BusinessSearch_Index_txtPrincipalLastName').val('');
+                        $('#BusinessSearch_Index_PrincipalNameIndividualRadioButton').attr('checked', true);
+                        $('#BusinessSearch_Index_PrincipalNameEntityRadioButton').attr('checked', false);
+                        $("#BusinessSearch_Index_PrincipalNameIndividualRadioButton").trigger('click');
+
+                        $('#BusinessSearch_Index_txtDesigneeFirstName').val('');
+                        $('#BusinessSearch_Index_txtDesigneeLastName').val('');
+                    }
+                })
+
+                $('#BusinessSearch_Index_txtDesigneeFirstName').on('blur', function () {
+                    if ($('#BusinessSearch_Index_txtDesigneeFirstName').val()?.trim()?.length > 0) {
+                        $('#BusinessSearch_Index_txtBusinessID').val('');
+                        $('#BusinessSearch_Index_txtBusinessName').val('');
+                        $('#BusinessSearch_Index_txtFilingNumber').val('');
+                        $('#BusinessSearch_Index_txtPrincipalFirstName').val('');
+                        $('#BusinessSearch_Index_txtPrincipalLastName').val('');
+                        $('#BusinessSearch_Index_PrincipalNameIndividualRadioButton').attr('checked', true);
+                        $('#BusinessSearch_Index_PrincipalNameEntityRadioButton').attr('checked', false);
+                        $("#BusinessSearch_Index_PrincipalNameIndividualRadioButton").trigger('click');
+                        $('#BusinessSearch_Index_txtAgentFirstName').val('');
+                        $('#BusinessSearch_Index_txtAgentLastName').val('');
+                        $('#BusinessSearch_Index_txtFilingNumber').val('');
+                        $('#BusinessSearch_Index_AgentNameIndividualRadioButton').attr('checked', true);
+                        $('#BusinessSearch_Index_AgentNameEntityRadioButton').attr('checked', false);
+                    }
+                })
+                $('#BusinessSearch_Index_txtDesigneeLastName').on('blur', function () {
+                    if ($('#BusinessSearch_Index_txtDesigneeLastName').val()?.trim()?.length > 0) {
+                        $('#BusinessSearch_Index_txtBusinessID').val('');
+                        $('#BusinessSearch_Index_txtBusinessName').val('');
+                        $('#BusinessSearch_Index_txtFilingNumber').val('');
+                        $('#BusinessSearch_Index_txtPrincipalFirstName').val('');
+                        $('#BusinessSearch_Index_txtPrincipalLastName').val('');
+                        $('#BusinessSearch_Index_PrincipalNameIndividualRadioButton').attr('checked', true);
+                        $('#BusinessSearch_Index_PrincipalNameEntityRadioButton').attr('checked', false);
+                        $("#BusinessSearch_Index_PrincipalNameIndividualRadioButton").trigger('click');
+                        $('#BusinessSearch_Index_txtAgentFirstName').val('');
+                        $('#BusinessSearch_Index_txtAgentLastName').val('');
+                        $('#BusinessSearch_Index_txtFilingNumber').val('');
+                        $('#BusinessSearch_Index_AgentNameIndividualRadioButton').attr('checked', true);
+                        $('#BusinessSearch_Index_AgentNameEntityRadioButton').attr('checked', false);
+                    }
+                })
+                $('#BusinessSearch_Index_txtAgentLastName').on('blur', function () {
+                    if ($('#BusinessSearch_Index_txtAgentLastName').val()?.trim()?.length > 0) {
+                        $('#BusinessSearch_Index_txtBusinessID').val('');
+                        $('#BusinessSearch_Index_txtBusinessName').val('');
+                        $('#BusinessSearch_Index_txtFilingNumber').val('');
+                        $('#BusinessSearch_Index_txtPrincipalFirstName').val('');
+                        $('#BusinessSearch_Index_txtPrincipalLastName').val('');
+                        $('#BusinessSearch_Index_PrincipalNameIndividualRadioButton').attr('checked', true);
+                        $('#BusinessSearch_Index_PrincipalNameEntityRadioButton').attr('checked', false);
+                        $("#BusinessSearch_Index_PrincipalNameIndividualRadioButton").trigger('click');
+                        $('#BusinessSearch_Index_txtDesigneeFirstName').val('');
+                        $('#BusinessSearch_Index_txtDesigneeLastName').val('');
+                    }
+                })
+
+                $('#BusinessSearch_Index_txtFilingNumber').on('blur', function () {
+                    if ($('#BusinessSearch_Index_txtFilingNumber').val()?.trim()?.length > 0) {
+                        $('#BusinessSearch_Index_txtBusinessID').val('');
+                        $('#BusinessSearch_Index_txtBusinessName').val('');
+                        $('#BusinessSearch_Index_txtPrincipalFirstName').val('');
+                        $('#BusinessSearch_Index_txtPrincipalLastName').val('');
+                        $('#BusinessSearch_Index_txtAgentFirstName').val('');
+                        $('#BusinessSearch_Index_txtAgentLastName').val('');
+                        $('#BusinessSearch_Index_AgentNameIndividualRadioButton').attr('checked', true);
+                        $('#BusinessSearch_Index_PrincipalNameIndividualRadioButton').attr('checked', true);
+                        $('#BusinessSearch_Index_PrincipalNameEntityRadioButton').attr('checked', false);
+                        $('#BusinessSearch_Index_AgentNameEntityRadioButton').attr('checked', false);
+                        $("#BusinessSearch_Index_PrincipalNameIndividualRadioButton").trigger('click');
+                        $("#BusinessSearch_Index_AgentNameIndividualRadioButton").trigger('click');
+                        $('#BusinessSearch_Index_txtDesigneeFirstName').val('');
+                        $('#BusinessSearch_Index_txtDesigneeLastName').val('');
+                    }
+                })
+                /*********************************************************/
+                // End Express Search clear methods
+                /*********************************************************/
+                var showhideAddress = function () {
+                    return {
+                        show: function () {
+                            document.getElementById('cityzip').removeAttribute('hidden');
+                            document.getElementById('address').removeAttribute('hidden');
+                            $("#address").show();
+                            $("#cityzip").show();
+                            $('#txtStreetAddress1').show();
+                            $('#txtCity').show();
+                            $('#txtZipCode').show();
+                        },
+                        hide: function () {
+                            $('#txtStreetAddress1').val('');
+                            $('#txtCity').val('');
+                            var element = "<input id='txtCity' maxlength='100' class='form-control textbox-width custom_txt_sm_width' style='width: 250px;' type='text'  />";
+                            $("[name=txtCity]").replaceWith(element);
+                            $('#txtZipCode').val('');
+                            $('#txtZip4').val('');
+                            $("#address").hide();
+                            $('#txtStreetAddress1').hide();
+                            $("#cityzip").hide();
+                            $('#txtCity').hide();
+                            $('#txtZipCode').hide();
+                        }
+                    }
+                }
+                var controlAddressFields = showhideAddress();
+
+                /*********************************************************/
+                // chk Principal Office Address Clicked
+                /*********************************************************/
+                $("#BusinessSearch_Index_PrincipalOfficeAddress").on('click', function () {
+                    clearaddressfields();
+                    if ($("#BusinessSearch_Index_PrincipalOfficeAddress").prop("checked")) {
+                        controlAddressFields.show();
+                        $("#BusinessSearch_Index_RegisteredOfficeAddress").prop("checked", false);
+                    }
+                    else {
+                        controlAddressFields.hide();
+
+                    }
+
+
+                })
+
+                /*********************************************************/
+                // chk Registered Office Address Clicked
+                /*********************************************************/
+                $("#BusinessSearch_Index_RegisteredOfficeAddress").on('click', function () {
+                    clearaddressfields();
+                    if ($("#BusinessSearch_Index_RegisteredOfficeAddress").prop("checked")) {
+                        $("#BusinessSearch_Index_PrincipalOfficeAddress").prop("checked", false);
+                        controlAddressFields.show();
+                    }
+                    else {
+                        controlAddressFields.hide();
+                    }
+                })
+
+                function clearaddressfields() {
+                    $('#txtStreetAddress1').val('');
+                    $('#txtCity').val('');
+                    var element = "<input id='txtCity' maxlength='100' class='form-control textbox-width custom_txt_sm_width' style='width: 250px;' type='text'  />";
+                    $("[name=txtCity]").replaceWith(element);
+                    $('#txtZipCode').val('');
+                }
+
+                /*********************************************************/
+                // rdb Principal Individual Name Clicked
+                /*********************************************************/
+                $("#BusinessSearch_Index_PrincipalNameIndividualRadioButton").on('click', function () {
+                    ResetPrincipalEntityName
+
+                    $("#BusinessSearch_Index_lblPrincipalLastName").show();
+                    $("#BusinessSearch_Index_txtPrincipalLastName").show();
+                    $("#BusinessSearch_Index_lblPrincipalFirstName").val("First Name");
+                    $("#BusinessSearch_Index_lblPrincipalFirstName").html("First Name");
+                })
+                /*********************************************************/
+                // rdb Principal Entity Name Clicked
+                /*********************************************************/
+                $("#BusinessSearch_Index_PrincipalNameEntityRadioButton").on('click', function () {
+                    ResetPrincipalEntityName();
+                    $("#BusinessSearch_Index_lblPrincipalLastName").hide();
+                    $("#BusinessSearch_Index_txtPrincipalLastName").hide();
+                    $("#BusinessSearch_Index_lblPrincipalFirstName").val("Entity Name");
+                    $("#BusinessSearch_Index_lblPrincipalFirstName").html("Entity Name");
+                })
+
+                /*********************************************************/
+                // rdb Agent Individual Name Clicked
+                /*********************************************************/
+                $("#BusinessSearch_Index_AgentNameIndividualRadioButton").on('click', function () {
+                    ResetAgentEntityName();
+                    $("#BusinessSearch_Index_lblAgentLastName").show();
+                    $("#BusinessSearch_Index_txtAgentLastName").show();
+                    $("#BusinessSearch_Index_lblAgentFirstName").val("First Name");
+                    $("#BusinessSearch_Index_lblAgentFirstName").html("First Name");
+
+                })
+
+                /*********************************************************/
+                // rdb Agent Entity Name Clicked
+                /*********************************************************/
+                $("#BusinessSearch_Index_AgentNameEntityRadioButton").on('click', function () {
+                    ResetAgentEntityName();
+                    $("#BusinessSearch_Index_lblAgentLastName").hide();
+                    $("#BusinessSearch_Index_txtAgentLastName").hide();
+                    $("#BusinessSearch_Index_lblAgentFirstName").val("Entity Name");
+                    $("#BusinessSearch_Index_lblAgentFirstName").html("Entity Name");
+
+                })
+
+                function ResetAgentEntityName() {
+                    $("#BusinessSearch_Index_txtAgentFirstName").val('');
+                    $("#BusinessSearch_Index_txtAgentLastName").val('');
+                }
+
+                function ResetPrincipalEntityName() {
+                    $("#BusinessSearch_Index_txtPrincipalFirstName").val('');
+                    $("#BusinessSearch_Index_txtPrincipalLastName").val('');
+                }
+
+                $(function () {
+                    $("#BusinessSearch_Index_txtBusinessName").focus();
+                    var errMessage = $('#hdnErrorMessage').val();
+                    if (errMessage != '') {
+                        var DocsList = '{"SearchCriteria":null,"SearchType":"othersearchtype","SearchValue":null,"quickSearch":{"BESearchLogic":"2","StartsWith":"2","Contains":"0","ExactMatch":"0","Soundex":null,"AnyCombo":null,"BusinessName":null,"AgentName":null,"PrincipalName":null,"DesigneeName":null,"DesigneeLastName":null,"Addresstype":"0","AgentNameIndividualSearch":false,"AgentNameEntitySearch":false,"PrincipalNameIndividualSearch":false,"PrincipalNameEntityeSearch":false,"AgentFirstName":null,"AgentLastName":null,"PrincipalFirstName":null,"PrincipalLastName":null,"BusinessId":null,"barcodeNumber":null,"FilingNumber":null,"MicroFilmLocation":null},"advancedSearch":{"BusinessTypeID":null,"BusinessStatusID":null,"NameType":null,"PrincipalOfficeAddressSearch":false,"AgentOfficeAddressSearch":false,"StreetAddress1":null,"ZipCode":null,"City":null,"County":null,"Zip4":null,"DocumentTypeID":null,"IndustryCodeID":null,"FilingDateFrom":null,"FilingDateTo":null,"Fields":"businessName=|businessID=|principalName=|principalLastName=|principalIndividualNameSearch=0|principalEntityNameSearch=0|agentName=|agentLastname=|designeeName=|designeeLastName=|agentIndividualNameSearch=0|agentEntityNameSearch=0|filingNumber=|businessType=|jurisdictionType=|businessStatus=|nameType=|documentType=|industryCode=|formationStart=07/16/2025|formationEnd=07/18/2025|addressType=0|streetAddress1=|city=|zipCode=|RegisterOfficeAddressCheck=0|IsSeriesLLC="},"IsLimitedRecords":false,"IsAllRecords":false,"IsOnline":true,"IsDownloadReports":false}';
+                        var list = JSON.parse(DocsList);
+                        if (list.quickSearch.StartsWith) {
+                            $('#BEFilingSearch_ddlSearchLogic').val(list.quickSearch.StartsWith != null ? list.quickSearch.StartsWith : "");
+                        }
+                        if (list.quickSearch.Contains) {
+                            $('#BEFilingSearch_ddlSearchLogic').val(list.quickSearch.Contains != null ? list.quickSearch.Contains : "");
+                        }
+                        if (list.quickSearch.ExactMatch) {
+                            $('#BEFilingSearch_ddlSearchLogic').val(list.quickSearch.ExactMatch != null ? list.quickSearch.ExactMatch : "");
+                        }
+
+                        $('#BusinessSearch_Index_txtBusinessName').val(list.quickSearch.BusinessName != null ? list.quickSearch.BusinessName : "");
+                        $('#BusinessSearch_Index_txtBusinessID').val(list.quickSearch.BusinessId != null ? list.quickSearch.BusinessId : "");
+
+                        if (list.advancedSearch.PrincipalIndividualSearch) {
+                            $("#BusinessSearch_Index_PrincipalNameIndividualRadioButton").trigger('click');
+                        }
+                        else if (list.advancedSearch.PrincipalEntitySearch) {
+                            $("#BusinessSearch_Index_PrincipalNameEntityRadioButton").trigger('click');
+                        }
+                        $('#BusinessSearch_Index_txtPrincipalFirstName').val(list.quickSearch.PrincipalFirstName != null ? list.quickSearch.PrincipalFirstName : "");
+                        $('#BusinessSearch_Index_txtPrincipalLastName').val(list.quickSearch.PrincipalLastName != null ? list.quickSearch.PrincipalLastName : "");
+
+                        if (list.advancedSearch.AgentNameIndividualSearch) {
+                            $("#BusinessSearch_Index_PrincipalNameIndividualRadioButton").trigger('click');
+                        }
+                        else if (list.advancedSearch.AgentNameEntitySearch) {
+                            $("#BusinessSearch_Index_PrincipalNameEntityRadioButton").trigger('click');
+                        }
+                        $('#BusinessSearch_Index_txtAgentFirstName').val(list.quickSearch.AgentFirstName != null ? list.quickSearch.AgentFirstName : "");
+                        $('#BusinessSearch_Index_txtAgentLastName').val(list.quickSearch.AgentLastName != null ? list.quickSearch.AgentLastName : "");
+
+                        $('#BusinessSearch_Index_txtFilingNumber').val(list.quickSearch.FilingNumber != null ? list.quickSearch.FilingNumber : "");
+                        //Advanced Search
+                        $('#BEFilingSearch_ddlBusinessEntityType').val(list.advancedSearch.BusinessTypeID != null ? list.advancedSearch.BusinessTypeID : "");
+                        $('#BEFilingSearch_ddlBusinessEntityStatusType').val(list.advancedSearch.BusinessStatusID != null ? list.advancedSearch.BusinessStatusID : "");
+                        $("#BEFilingSearch_ddlJurisdictionType").val(list.advancedSearch.NameType != null ? list.advancedSearch.NameType : "");
+                        $("#BEFilingSearch_ddlDocumentType").val(list.advancedSearch.DocumentTypeID != null ? list.advancedSearch.DocumentTypeID : "");
+                        $("#BEFilingSearch_ddlIndustryCodeType").val(list.advancedSearch.IndustryCodeID != null ? list.advancedSearch.IndustryCodeID : "");
+                        $("#BEFilingSearch_txtFilingDateFrom").val(list.advancedSearch.FilingDateFrom != null ? list.advancedSearch.FilingDateFrom : "");
+                        $("#BEFilingSearch_txtFilingDateTo").val(list.advancedSearch.FilingDateTo != null ? list.advancedSearch.FilingDateTo : "");
+
+                        $('#txtStreetAddress1').val(list.advancedSearch.StreetAddress1 != null ? list.advancedSearch.StreetAddress1 : "");
+                        $('#txtCity').val(list.advancedSearch.City != null ? list.advancedSearch.City : "");
+                        $('#txtZipCode').val(list.advancedSearch.ZipCode != null ? list.advancedSearch.ZipCode : "");
+                        $('#txtZip4').val(list.advancedSearch.Zip4 != null ? list.advancedSearch.Zip4 : "");
+
+                        if (list.advancedSearch.PrincipalOfficeAddressSearch)
+                            $('#BusinessSearch_Index_PrincipalOfficeAddress').prop("checked", true);
+                        if (list.advancedSearch.AgentOfficeAddressSearch)
+                            $('#BusinessSearch_Index_RegisteredOfficeAddress').prop("checked", true);
+
+                        if (errMessage != "back to search") {
+                            if (errMessage == "No records found with your search criteria.") {
+                                swal("", errMessage, "warning");
+                                $('#BEFilingSearch_ddlSearchLogic').prop("selectedIndex", 0);
+                            }
+                            else {
+                                swal({
+                                    html: true,
+                                    title: "",
+                                    text: errMessage,
+                                    type: "warning",
+                                    showConfirmButton: true,
+                                    showCancelButton: true,
+                                    closeOnConfirm: true,
+                                    closeOnCancel: true
+                                }, function (isConfirm) {
+                                    if (isConfirm) {
+                                        $('#LoadingAnimation').trigger('click');
+                                        $.submitForm('/EntitySearch/Index', { isBack: true, isAllRecords: true, "__RequestVerificationToken": $('input[name=__RequestVerificationToken]').val() });
+                                        return;
+                                    }
+                                    else {
+                                        $('#LoadingAnimation').trigger('click');
+                                        $.submitForm('/EntitySearch/Index', { isBack: true, isLimitedRecords: true, "__RequestVerificationToken": $('input[name=__RequestVerificationToken]').val() });
+                                        return;
+                                    }
+                                });
+                            }
+                        }
+                    }
+
+                    //---------------------------------------------------
+                    $('#btnSearch').on('click', function () {
+                        if ($("#BusinessSearch_Index_PrincipalOfficeAddress").is(':checked') || $("#BusinessSearch_Index_RegisteredOfficeAddress").is(':checked')) {
+                            if ($("#txtZipCode").val().length != 0) {
+                                if ($("#txtZipCode").val().replace(/[^0-9]/g, '').length != 5) {
+                                    swal("", errMsg.ZipcodeValidate, "warning");
+                                    return false;
+                                }
+                            }
+                            if (($("#txtStreetAddress1").val() == '') && ($("#txtCity").val() == '' || $("#txtZipCode").val() == '')) {
+                                swal("", errMsg.AddressandCityorZipCoderequiredforPrincipalOfficeorRegisteredOfficesearchresults, "warning");
+                                return false;
+                            }
+                        }
+
+                        //Express Search
+                        var businessName = $('#BusinessSearch_Index_txtBusinessName').val()?.trim();
+                        var businessID = $('#BusinessSearch_Index_txtBusinessID').val()?.trim();
+
+                        var principalName = ($('#BusinessSearch_Index_PrincipalNameIndividualRadioButton').is(':checked') && $('#BusinessSearch_Index_txtPrincipalFirstName').val()?.trim() != "" ? $('#BusinessSearch_Index_txtPrincipalFirstName').val()?.trim() + " " + $('#BusinessSearch_Index_txtPrincipalLastName').val()?.trim() : $('#BusinessSearch_Index_txtPrincipalFirstName').val()?.trim())?.trim();
+                        var principalLastName = ($('#BusinessSearch_Index_PrincipalNameIndividualRadioButton').is(':checked') && $('#BusinessSearch_Index_txtPrincipalFirstName').val()?.trim() == "") ? $('#BusinessSearch_Index_txtPrincipalLastName').val()?.trim() : "";
+                        var agentName = ($('#BusinessSearch_Index_AgentNameIndividualRadioButton').is(':checked') && $('#BusinessSearch_Index_txtAgentFirstName').val()?.trim() != "" ? $('#BusinessSearch_Index_txtAgentFirstName').val()?.trim() + " " + $('#BusinessSearch_Index_txtAgentLastName').val()?.trim() : $('#BusinessSearch_Index_txtAgentFirstName').val()?.trim())?.trim();
+                        var agentLastname = ($('#BusinessSearch_Index_AgentNameIndividualRadioButton').is(':checked') && $('#BusinessSearch_Index_txtAgentFirstName').val()?.trim() == "") ? $('#BusinessSearch_Index_txtAgentLastName').val()?.trim() : "";
+                        var DesigneeName = $('#BusinessSearch_Index_txtDesigneeFirstName').val()?.trim() != "" ? $('#BusinessSearch_Index_txtDesigneeFirstName').val()?.trim() + " " + $('#BusinessSearch_Index_txtDesigneeLastName').val()?.trim() : $('#BusinessSearch_Index_txtDesigneeFirstName').val()?.trim();
+                        var DesigneeLastName = ($('#BusinessSearch_Index_txtDesigneeFirstName').val()?.trim() == "") ? $('#BusinessSearch_Index_txtDesigneeLastName').val()?.trim() : "";
+
+                        var principalIndividualNameSearch = 0;
+                        var principalEntityNameSearch = 0;
+                        if (principalName.length || principalLastName.length) {
+                            principalIndividualNameSearch = $('#BusinessSearch_Index_PrincipalNameIndividualRadioButton').is(':checked') ? 1 : 0;//BusinessSearch_Index_PrincipalNameRadioButtonGroup
+                            principalEntityNameSearch = $('#BusinessSearch_Index_PrincipalNameEntityRadioButton').is(':checked') ? 1 : 0;
+                        }
+                        var agentIndividualNameSearch = 0;
+                        var agentEntityNameSearch = 0;
+                        if (agentName.length || agentLastname.length) {
+                            agentIndividualNameSearch = $('#BusinessSearch_Index_AgentNameIndividualRadioButton').is(':checked') ? 1 : 0;
+                            agentEntityNameSearch = $('#BusinessSearch_Index_AgentNameEntityRadioButton').is(':checked') ? 1 : 0;
+                        }
+
+                        var filingNumber = $('#BusinessSearch_Index_txtFilingNumber').val()?.trim();
+
+                        //Advanced Search
+
+                        var businessType = $('#BEFilingSearch_ddlBusinessEntityType').val()?.trim();
+                        var jurisdictionType = $('#BEFilingSearch_ddlJurisdictionType').val()?.trim();
+                        var businessStatus = $('#BEFilingSearch_ddlBusinessEntityStatusType').val()?.trim();
+                        var nameType = $('#BEFilingSearch_ddlBusinessNameType').val()?.trim();
+
+                        var documentType = $('#BEFilingSearch_ddlDocumentType').val()?.trim();
+                        var industryCode = ($('#BEFilingSearch_ddlIndustryCodeType').val() == undefined || $('#BEFilingSearch_ddlIndustryCodeType').val() == '' ? '' : $('#BEFilingSearch_ddlIndustryCodeType').val())?.trim();
+                        var formationStart = $('#BEFilingSearch_txtFilingDateFrom').val()?.trim();
+                        var formationEnd = $('#BEFilingSearch_txtFilingDateTo').val()?.trim();
+
+                        var addressType = $('#BusinessSearch_Index_PrincipalOfficeAddress').is(':checked') ? $('#txtStreetAddress1').val()?.trim() + "" + $('#txtCity').val()?.trim() + "" + $('#txtZipCode').val()?.trim() : $('#BusinessSearch_Index_RegisteredOfficeAddress').is(':checked') ? $('#txtStreetAddress1').val()?.trim() + "" + $('#txtCity').val()?.trim() + "" + $('#txtZipCode').val()?.trim() : 0;
+
+                        var RegisterOfficeAddressCheck = $('#BusinessSearch_Index_RegisteredOfficeAddress').is(':checked') ? 1 : 0
+
+                        var streetAddress1 = $('#txtStreetAddress1').val()?.trim();
+                        var city = $('#txtCity').val()?.trim();
+                        var zipCode = $('#txtZipCode').val()?.trim();
+                        var SeriesLLC = ($("#BEFilingSearch_ddlBusinessEntityType option:selected").text() == 'Limited Liability Company') ? ($('#BusinessSearch_Index_SeriesLLC').is(':checked') ? 1 : 0) : ''
+
+                        //Base
+                        var searchType = businessName.length > 0 ? 'businessname' : businessID.length > 0 ? 'businessid' : principalName.length > 0 || principalLastName.length > 0 ? 'principalname' : DesigneeName.length > 0 || DesigneeLastName.length > 0 ? 'designee' : agentName.length > 0 || agentLastname.length > 0 ? 'agentname' : filingNumber.length > 0 ? 'filingnumber' : addressType.length > 0 ? 'addresstype' : 'othersearchtype';
+
+                        //For Download Reports
+                        var isDownloadReports = $('#hdnIsDownloadReports').val();
+
+                        if (businessName || businessID || principalName || principalLastName || agentName || agentLastname || filingNumber || businessType || jurisdictionType || businessStatus || nameType || addressType || documentType || industryCode || formationStart || formationEnd || streetAddress1 || city || zipCode || DesigneeLastName || DesigneeName) {
+                            returnValue = true;
+                        } else {
+                            $('#BusinessSearch_Index_txtBusinessName').focus();
+                            $('#BusinessSearch_Index_rdStartsWith').prop("checked", true);
+                            swal("", errMsg.Pleaseenteratleastoneoptionforsearch, "warning");
+
+
+                            return false;
+                        }
+                        var BusinessSearch = {
+                            SearchType: searchType,
+                            IsOnline: true,
+                            IsDownloadReports: isDownloadReports,
+                            QuickSearch: {
+                                //Business Name
+                                BESearchLogic: $('#BEFilingSearch_ddlSearchLogic :selected').val(),
+                                StartsWith: $('#BEFilingSearch_ddlSearchLogic :selected').val() == $helper.enums.enumSearchMethod.StartsWith ? $helper.enums.enumSearchMethod.StartsWith : 0,
+                                Contains: $('#BEFilingSearch_ddlSearchLogic :selected').val() == $helper.enums.enumSearchMethod.Contains ? $helper.enums.enumSearchMethod.Contains : 0,
+                                ExactMatch: $('#BEFilingSearch_ddlSearchLogic :selected').val() == $helper.enums.enumSearchMethod.ExactMatch ? $helper.enums.enumSearchMethod.ExactMatch : 0,
+                                BusinessName: $('#BusinessSearch_Index_txtBusinessName').val()?.trim(),
+                                //Other
+                                BusinessId: $('#BusinessSearch_Index_txtBusinessID').val()?.trim(),
+                                PrincipalName: principalName,
+                                principalLastName: principalLastName,
+                                AgentName: agentName,
+                                AgentLastName: agentLastname,
+                                DesigneeName: DesigneeName,
+                                DesigneeLastName: DesigneeLastName,
+                                Addresstype: addressType,
+                                PrincipalFirstName: $('#BusinessSearch_Index_txtPrincipalFirstName').val()?.trim(),
+                                PrincipalLastName: $('#BusinessSearch_Index_txtPrincipalLastName').val()?.trim(),
+                                AgentFirstName: $('#BusinessSearch_Index_txtAgentFirstName').val()?.trim(),
+                                AgentLastName: $('#BusinessSearch_Index_txtAgentLastName').val()?.trim(),
+                                FilingNumber: filingNumber,
+                                AgentNameIndividualSearch: $('#BusinessSearch_Index_AgentNameIndividualRadioButton').is(':checked') ? 1 : 0,
+                                AgentNameEntitySearch: $('#BusinessSearch_Index_AgentNameEntityRadioButton').is(':checked') ? 1 : 0,
+                                PrincipalNameIndividualSearch: $('#BusinessSearch_Index_PrincipalNameIndividualRadioButton').is(':checked') ? 1 : 0,
+                                PrincipalNameEntityeSearch: $('#BusinessSearch_Index_PrincipalNameEntityRadioButton').is(':checked') ? 1 : 0,
+                            },
+
+                            AdvancedSearch: {
+                                BusinessTypeID: $('#BusinessEntityType :selected').val(),
+                                BusinessStatusID: $('#BusinessStatus :selected').val(),
+                                NameType: $('#BEFilingSearch_ddlJurisdictionType :selected').val(),
+                                DocumentTypeID: $('#BEFilingSearch_ddlDocumentType :selected').val(),
+                                IndustryCodeID: $('#BEFilingSearch_ddlIndustryCodeType :selected').val(),
+                                FilingDateFrom: $('BEFilingSearch_txtFilingDateFrom').val()?.trim(),
+                                FilingDateTo: $('BEFilingSearch_txtFilingDateTo').val()?.trim(),
+                                PrincipalOfficeAddressSearch: $('#BusinessSearch_Index_PrincipalOfficeAddress').is(':checked') ? 1 : 0,
+                                AgentOfficeAddressSearch: $('#BusinessSearch_Index_RegisteredOfficeAddress').is(':checked') ? 1 : 0,
+                                StreetAddress1: $('#txtStreetAddress1').val()?.trim(),
+                                City: $('#txtCity').val()?.trim(),
+                                ZipCode: $('#txtZipCode').val()?.trim(),
+                                SeriesLLC: SeriesLLC,
+                                Fields: "businessName=" + businessName + "|businessID=" + businessID + "|principalName=" + principalName + "|principalLastName=" + principalLastName + "|principalIndividualNameSearch=" +
+                                    principalIndividualNameSearch + "|principalEntityNameSearch=" + principalEntityNameSearch + "|agentName=" + agentName + "|agentLastname=" + agentLastname + "|designeeName=" + DesigneeName + "|designeeLastName=" + DesigneeLastName +
+                                    "|agentIndividualNameSearch=" + agentIndividualNameSearch + "|agentEntityNameSearch=" + agentEntityNameSearch +
+                                    "|filingNumber=" + filingNumber + "|businessType=" + businessType + "|jurisdictionType=" + jurisdictionType + "|businessStatus=" +
+                                    businessStatus + "|nameType=" + nameType + "|documentType=" + documentType + "|industryCode=" + industryCode + "|formationStart=" + formationStart + "|formationEnd=" + formationEnd +
+                                    "|addressType=" + addressType + "|streetAddress1=" + streetAddress1 + "|city=" + city + "|zipCode=" + zipCode + "|RegisterOfficeAddressCheck=" + RegisterOfficeAddressCheck + "|IsSeriesLLC=" + SeriesLLC,
+
+                            },
+                            "__RequestVerificationToken": $('input[name=__RequestVerificationToken]').val()
+                        }
+                        setTimeout(function () {
+                            processDialog.dialog("open");
+                        }, 0);
+
+
+                        //reCaptcha Implementation before login search
+                        if ('Y' == "Y" && 'N' != "Y") {
+                            grecaptcha.ready(function () {
+                                grecaptcha.execute("6LdtxWcrAAAAAKvoAZZD9KSKaBAP4hxDtSyeI6rz", { action: 'submit' }).then(function (token) {
+                                    // Set the token value in the hidden input
+                                    // Send the form data along with the token to your controller using AJAX
+                                    $.ajax({
+                                        url: '/GoogleCaptchaHelper/VerifyReCaptcha',
+                                        type: 'POST',
+                                        data: {
+                                            // Your form fields here
+                                            recaptchaToken: token
+                                        },
+                                        success: function (response) {
+                                            console.log("Google captcha Score: " + response.score);
+                                            if (response.success) {
+                                                $.submitForm('/EntitySearch/Index', BusinessSearch);
+                                            }
+                                            else {
+                                                $('#txtEntityName').focus();
+                                                swal("", "Please try again. You may be a bot!", "warning");
+                                                return false;
+                                            }
+                                        },
+                                        error: function (xhr, status, error) {
+                                            // Handle error response
+                                            return false;
+                                        }
+                                    });
+                                });
+                            });
+                        }
+                        else {
+                            $.submitForm('/EntitySearch/Index', BusinessSearch);
+                        }
+                    });
+
+                    $("#BusinessSearch_Index_txtBusinessName").on('keypress', function (e) {
+                        if (e.keyCode == 13 || e.which == 13)
+                            $("#btnSearch").trigger("click");
+                    });
+                    $("#BusinessSearch_Index_txtBusinessID").on('keypress', function (e) {
+
+                        var regex = new RegExp("^[a-zA-Z0-9]+$");
+                        var str = String.fromCharCode(!e.charCode ? e.which : e.charCode);
+                        if (regex.test(str)) {
+                            return true;
+                        }
+                        e.preventDefault();
+                        if (e.keyCode == 13 || e.which == 13) {
+                            $("#btnSearch").trigger("click");
+                        }
+
+                    });
+                    $("#txtFilingNumber").on('keypress', function (e) {
+                        if (e.keyCode == 13 || e.which == 13)
+                            $("#btnSearch").trigger("click");
+                    });
+
+                });
+
+                function Toggle() {
+                    var state = document.getElementById("AdvnneSrchOptns").style.display;
+                    if (state == 'block') {
+                        document.getElementById("AdvnneSrchOptns").style.display = 'none';
+                    }
+                    else {
+                        document.getElementById("AdvnneSrchOptns").style.display = 'block';
+                    }
+                    ClearAdvancedValues();
+                }
+
+                function clearValues() {
+
+                    $('#BusinessSearch_Index_txtBusinessName').val('');
+                    $('#BusinessSearch_Index_txtBusinessID').val('');
+                    $('#txtStreetAddress1').val('');
+                    $('#txtCity').val('');
+                    $('#txtZipCode').val('');
+                    $('#txtZip4').val('');
+                    $('#BEFilingSearch_ddlSearchLogic').prop("selectedIndex", 0);
+
+                    $('#BusinessSearch_Index_PrincipalNameIndividualRadioButton').attr('checked', true);
+                    $('#BusinessSearch_Index_PrincipalNameEntityRadioButton').attr('checked', false);
+
+                    $('#BusinessSearch_Index_AgentNameIndividualRadioButton').attr('checked', true);
+                    $('#BusinessSearch_Index_AgentNameEntityRadioButton').attr('checked', false);
+
+                    $('#BusinessSearch_Index_txtPrincipalFirstName').val('');
+                    $('#BusinessSearch_Index_txtPrincipalLastName').val('');
+
+                    $('#BusinessSearch_Index_txtAgentFirstName').val('');
+                    $('#BusinessSearch_Index_txtAgentLastName').val('');
+
+                    $('#BusinessSearch_Index_txtFilingNumber').val('');
+
+                    //Advanced:
+                    $('#BEFilingSearch_ddlBusinessEntityType option').prop("selected", false);
+                    $('#BEFilingSearch_ddlBusinessEntityType').val('');
+                    $('#BEFilingSearch_ddlJurisdictionType').prop("selected", false);
+                    $('#BEFilingSearch_ddlJurisdictionType').val('');
+
+                    $('#BEFilingSearch_ddlBusinessEntityStatusType option').prop("selected", false);
+                    $('#BEFilingSearch_ddlBusinessEntityStatusType').val('');
+
+                    $('#BEFilingSearch_ddlBusinessNameType option').prop("selected", false);
+                    $('#BEFilingSearch_ddlBusinessNameType').val('');
+
+                    $('#BEFilingSearch_ddlDocumentType option').prop("selected", false);
+                    $('#BEFilingSearch_ddlDocumentType').val('');
+
+                    $('#BEFilingSearch_ddlIndustryCodeType option').prop("selected", false);
+                    $('#BEFilingSearch_ddlIndustryCodeType').val('');
+
+                    $('#BEFilingSearch_txtFilingDateFrom').val('');
+                    $('#BEFilingSearch_txtFilingDateTo').val('');
+
+                    $('#BusinessSearch_Index_PrincipalOfficeAddress').attr('checked', false);
+                    $('#BusinessSearch_Index_RegisteredOfficeAddress').attr('checked', false);
+                    controlAddressFields.hide();
+
+                }
+
+                function ClearAdvancedValues() {
+                    $('#BEFilingSearch_ddlBusinessEntityType option').prop("selected", false);
+                    $('#BEFilingSearch_ddlBusinessEntityType').val('');
+                    $('#BEFilingSearch_ddlJurisdictionType').prop("selected", false);
+                    $('#BEFilingSearch_ddlJurisdictionType').val('');
+
+                    $('#BEFilingSearch_ddlBusinessEntityStatusType option').prop("selected", false);
+                    $('#BEFilingSearch_ddlBusinessEntityStatusType').val('');
+
+                    $('#BEFilingSearch_ddlBusinessNameType option').prop("selected", false);
+                    $('#BEFilingSearch_ddlBusinessNameType').val('');
+
+                    $('#BEFilingSearch_ddlDocumentType option').prop("selected", false);
+                    $('#BEFilingSearch_ddlDocumentType').val('');
+
+                    $('#BEFilingSearch_ddlIndustryCodeType option').prop("selected", false);
+                    $('#BEFilingSearch_ddlIndustryCodeType').val('');
+
+                    $('#BEFilingSearch_txtFilingDateFrom').val('');
+                    $('#BEFilingSearch_txtFilingDateTo').val('');
+
+                    $('#BusinessSearch_Index_PrincipalOfficeAddress').attr('checked', false);
+                    $('#BusinessSearch_Index_RegisteredOfficeAddress').attr('checked', false);
+                    controlAddressFields.hide();
+
+                }
+
+                function OnlyNumbers(e) {
+                    if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+                        return false;
+                    }
+                }
+                function BackToLogin() {
+                    window.location.href = '/';
+                }
+            </script>
+
+
+            <script type="text/javascript">
+                $helper = function () {
+                    var config = {
+                        settings: {
+
+                            //Account
+                            Login: '/',
+                            ValidateToken: '/Account/ValidateToken',
+
+                            //PublicNotice
+                            GetPublicNoticeSearch: '/PublicNotice/PublicNoticeSearch',
+
+                            //Dashboard
+                            ToDashboard: '/AzDashboard/Index',
+
+                            //MODAccount
+                            MakeDeposit: '/MODAccount/MakeDeposit',
+
+                            //ShoppingCart
+                            GotoPayment: '/ShoppingCart/Checkout',
+                            RemoveCartItem: '/ShoppingCart/RemoveCartItem',
+                            GetConfirmationDialog: '/ShoppingCart/RenderConfirmationDialog',
+                            ValidatePreCheckout: '/ShoppingCart/ValidatePreCheckout',
+
+                            //Address Fields Shared View
+                            GetCountiesByZipCode: '/Address/GetCountiesByZipCode',
+                            GetCityCountyListByZipCode: '/Address/GetCityCountyListByZipCode',
+                            GetCityCountyListByState: '/Address/GetCityCountyListByState',
+                            IsPinVerificationRequired: 'False',
+                            State_VA: 'VA'
+                        }
+                    };
+                    var enums = {
+                        Locales: {
+                            Countries: {
+                                USA: 'USA',
+                            }
+                        },
+                        enumEntityNameType: {
+                            TrueName: '5',
+                            TrueNameWithCorporateIdentifier: '7',
+                            DesignatedName: '6',
+                            LegalName: '2',
+                        },
+
+                        enumSelectedBusinessType: {
+                            CreateBusiness: 'CreateBusiness',
+                            NameReservation: 'NameReservation',
+                            AnnualReport: 'AnnualReport',
+                            ExistingBusiness: 'ExistingBusiness',
+
+                        },
+                        BusinessFilingTypes: {
+                            ArticlesOfAmendment_ForProfit: '6',
+                            ArticlesOfAmendment: '16',
+                            AnnualReport: '5',
+                            Officer_Director_ShareholderChange: '31',
+                            ArticlesOfConversion: '21',
+                            ArticlesOfCorrection: '18',
+                            ArticlesOfDissolution: '19',
+                            ArticlesOfDomestication: '20',
+                            ArticlesOfMerger: '24',
+                            CancellationOfApprovedEntityNameReservation: '50',
+                            Reservation: '52',
+                            TransferOfReservation: '53',
+                            Preclearance: '56',
+                            StatementOfChange_KPB_Stat_Agent: '57',
+                            StatutoryAgentResignation: '59',
+                            StatementOfChange_KPB_Stat_Agent: '57',
+                            ArticlesOfRevocationOfDissolution: '28',
+                            StatementOfInterestExchange: '69',
+                            AffidavitOfPublication: '70',
+                            AnnualBenefitReport: '71',
+                            AnnualReportExtension: '72',
+                            ApplicationForUseOfIndistinguishableName: '73',
+                            ArticlesOfAmendment_ShortForIncludedInThis: '74',
+                            ArticlesOfAmendment_Nonprofit: '75',
+                            ArticlesOfIncorporation_ForProfit: '76',
+                            ArticlesOfIncorporation_Nonprofit: '77',
+                            ArticlesOfOrg: '78',
+                            ArticlesOfOrganization: '25',
+                            ArticlesOfTermination: '30',
+                            CertificateOfCompliance: '81',
+                            CertificateOfDisclosure: '82',
+                            CertificateOfElectionToDissolve: '83',
+                            CourtOrder: '84',
+                            MemoToFile: '85',
+                            RestatedArticlesOfIncorporation_ForProfit: '86',
+                            RestatedArticlesOfIncorporation_Nonprofit: '87',
+                            ServiceOfProcess_LegalDocumentToPublic: '88',
+                            ServiceOfProcess_LegalDocumentToThePublic: '89',
+                            ServiceOfProcess_LegalDocumentToPublic2: '90',
+                            ServiceOfProcess_LegalDocumentToThePublic2: '112',
+                            StatementOfAbandoment: '91',
+                            StatementOfBankruptcy: '92',
+                            StatementOfChange: '51',
+                            StatementOfPrincipalOfficeChange: '1064',
+                            Statementofdesignationchange: '2244',
+                            StatementofDenialforPartnership: '61',
+                            RenewalofaStatementofPartnershipAuthority: '49',
+                            StatementOfChange_Member_Manager: '94',
+                            StatementOfDivision: '95',
+                            StatementOfIneffectiveness: '96',
+                            StatementPursuantTo_10_602: '97',
+                            SuretyBond: '98',
+                            SuretyBondCancellation: '99',
+                            ApplicationForAuthority: '100',
+                            ApplicationForRegistration: '101',
+                            ApplicationForRenewalOfNameRegistration: '102',
+                            ApplicationForUseOfIndistinguishableName2: '103',
+                            ApplicationForWithdrawal: '104',
+                            ArticlesOfAmendment_ForeignRegistration: '105',
+                            ArticlesOfAmendmentToApplicationForAuthority: '106',
+                            CancelForeignRegistration: '107',
+                            CancellationOfRegisteredForeignCorporationName: '108',
+                            ForeignStateAmendment: '109',
+                            RegistrationOfForeignCorporationName: '110',
+                            Reservation2: '1',
+                            Reservation3CopyOf2: '113',
+                            reservation4CopyOf2: '114',
+                            AllStepWorkflow: '115',
+                            RegistrationFee: '47',
+                            AbandonmentofConversion: '1',
+                            AbandonmentofDomestication: '2',
+                            AbandonmentofMerger: '3',
+                            AbandonmentofShareExchange: '4',
+                            AdministrativeDissolution: '5',
+                            Amendment: '6',
+                            ArticlesofMutualBankConversion: '18',
+                            AssumedName: '19',
+                            AssumedNameCancellation: '12455',
+                            BusinessEntityReport: '21',
+                            BusinessSummary: '22',
+                            Cancellation: '23',
+                            CertificateofDissolution: '26',
+                            CertificateofExistence: '2085',
+                            CertificateofFact: '28',
+                            CertifiedCopiesRequest: '30',
+                            CharterSurrender_Conversion: '33',
+                            CharterSurrender_Domestication: '34',
+                            Consolidation: '35',
+                            Conversion: '106565',
+                            Correction: '106566',
+                            Dissolution: '36',
+                            Domestication: '40',
+                            DueandDiligentSearch: '4133',
+                            Formation: '42',
+                            JudicialDissolution: '43',
+                            Merger_90: '477777',
+                            Miscellaneous: '2087',
+                            NameCancellation: '50',
+                            NameRenewal: '51',
+                            NameReservation: '52',
+                            NameTransfer: '53',
+                            NoticeofMerger_30: '54',
+                            PlainCopyRequest: '55',
+                            Preclearance: '56',
+                            RAChange: '57',
+                            RAResignation: '59',
+                            Reconstitution: '60',
+                            Reincorporation: '61',
+                            Reinstatement: '48',
+                            Reentry: '46',
+                            Reorganization: '159',
+                            Resolution: '64',
+                            ArticlesofDissolution: '19',
+                            Restatement: '27',
+                            Restatement_Amendments: '66',
+                            Revocation: '67',
+                            RevocationofDissolution: '68',
+                            ShareExchange: '69',
+                            SurrenderofCertificateofIncorporation: '70',
+                            Withdrawal: '71',
+                            CertOfExistanceLongForm: '10005',
+                            BusinessSearch: '10006',
+                            Dissolution: '36',
+                            ForeignConversion: '37',
+                            ForeignMerger: '38',
+                            ServiceAuthorityWithdrawal: '59',
+                            ServiceAuthorityTermination: '58',
+                            ArticlesOfShareExchange: '29',
+                            PublicServiceAuthorityAmendment: '44',
+                            PublicServiceAuthorityJoinder: '40',
+                            AmendedAppforRegasForeignBusinessTrust: '2',
+                            FictitiousNameCertificate: '1068',
+                            FictitiousNameRelease: '1069',
+                            AmendmentToPartnershipStatement: '3',
+                            StatementofAmendmentofRegisteredLLP: '60',
+                            ArticlesofIncorporationSurrender: '23',
+                            ArticlesofOrganizationSurrender: '26',
+                            StatementOfDissolution: '54',
+                            StatementOfRegistration: '56',
+                            StatementofCancellationofaStatementofRegistration: '2156',
+                            StatementofCancellationofRegistration: '2208',
+                            AppforanAmendedCertofAuthority: '9',
+                            CertificateOfAmendmentOfCertificateOfLimitedPartnership: '33',
+                            StatementofResignationofRegisteredAgent: '57',
+                            StatementofAmendmentofRegLLP: '60',
+                            GarnishmentDesignation: '39',
+                            FApplicationforcertificateofwithdrawal: '10',
+                            LLPRestoration: '2139',
+                            ArticlesofCancellation: '17',
+                            CancellationofPartnershipStatement: '32',
+                            ApplicationforaCertificateofCancellation: '7',
+                            CertificateofCancellation: '34',
+                            StatementofDissociation: '53',
+                            StatementOfMerger: '2232',
+                            StatementOfProtectedSeriesDesignation: '2235',
+                            ApplicationforCertificateofRegistrationasaForeignProtectedSeries: '2236',
+                            AmendedApplicationForeignProtectedSeries: '2248',
+                            StatementOfDesignationCancellation: '2247',
+                            CancellationForeignProtectedSeries: '2251',
+                            ArticlesOfRatification: '2262',
+                        },
+
+                        BusinessTypes: {
+                            RegistrationFee: '1027',
+                            FictitiousName: '1028',
+                            NameReservation: '1022',
+                            StockCorporation: '1',
+                            NonStockCorporation: '2',
+                            DomesticGeneralPartnership: '5',
+                            ForignGeneralPartnership: '6',
+                            DomesticLimitedPartnership: '9',
+                            ForeignLimitedPartnership: '10',
+                            DomesticLimitedLiabilityCompany: '7',
+                            ForeignLimitedLiabilityCompany: '8',
+                            ProtectedSeries: '1047',
+                            ForeignProtectedSeries: '1048',
+                        },
+                        enumSelectedNAICCodes: {
+                            WaterSewer: '84',
+                            CommunityDevelopment: '85',
+                            WirelessServiceBroadband: '86',
+                            ElectricAuthorities: '87',
+                        },
+
+                        Actions: {
+                            Save: 'Save',
+                            Update: 'Update',
+                            Delete: 'Delete',
+                            Success: 'Success',
+                            Error: 'Error',
+                            Exception: 'Exception',
+                            Next: "Next",
+                            Warning: "Warning",
+                            Duplicate: "Duplicate",
+                        },
+                        Weekdays: {
+                            Sunday: 1,
+                            Monday: 2,
+                            Tuesday: 3,
+                            Wednesday: 4,
+                            Thursday: 5,
+                            Friday: 6,
+                            Saturday: 7
+                        },
+                        enumSearchMethod: {
+                            StartsWith: '2',
+                            Contains: '7',
+                            ExactMatch: '3'
+                        },
+                        filingCategory: {
+                            Business: '1',
+                            UCC: '2',
+
+                        },
+                    };
+                    return { config: config, enums: enums }
+                }();
+            </script>
+
+        </section>
+    </div>
+    <!-- Main Footer -->
+
+
+
+
+
+    <footer class="footer-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="foot-container">
+                        <a href="https://www.scc.virginia.gov/web-policy/" rel="noopener noreferrer" target="_blank"
+                            style="border-right: 1px solid #ddd; padding-right: 1rem;">Privacy Policy</a>
+                        <a href="https://www.scc.virginia.gov/businesses/" rel="noopener noreferrer" target="_blank"
+                            style="padding-left: 1rem;">Contact Us</a>
+                        <a href="https://www.facebook.com/VirginiaStateCorporationCommission" rel="noopener noreferrer"
+                            target="_blank" style="padding-left: 1rem;"><img src="/Themes/VA/Images/facebook.png"
+                                width="32" height="30" alt="Facebook Icon"></a>
+                        <a href="https://twitter.com/VAStateCorpComm" rel="noopener noreferrer" target="_blank"
+                            style="padding-left: 0.5rem;"><img src="/Themes/VA/Images/twitter.png" width="32"
+                                height="30" alt="Twitter Icon"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script type="text/javascript">
+        /*<![CDATA[*/
+        (function () {
+            if ('SCC' == 'SCC') {
+                var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+                sz.src = '//siteimproveanalytics.com/js/siteanalyze_86027.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+            }
+        })();
+        /*]]>*/
+    </script>
+
+</body>
+
+</html>
+<script>
+
+    var errMsg = JSON.parse('{"ZipcodeValidate":"Enter a valid  zip code","Pleaseenteratleastoneoptionforsearch":"Enter at least one option for search","AddressandCityorZipCoderequiredforPrincipalOfficeorRegisteredOfficesearchresults":"Address and City or Zip Code required for Principal Office or Registered Office search results","UnableToResetThePIN":"Unable to reset the PIN"}');
+    //Initializes Javascript validation library
+    $(function () {
+
+        $a.ant();
+        $.ajaxSetup({
+            headers: {
+                '__RequestVerificationToken': $('[name=__RequestVerificationToken]').val()
+            }
+        });
+        document.addEventListener("keypress", function (event) {
+            //if (event.keyCode > 9000) {
+            //    event.preventDefault();
+
+            //}
+            if (event.target.tagName === "INPUT" && event.target.type === "password") {
+                // Get the ID of the textbox
+                const textboxId = event.target.id;
+
+                // Example: Restrict certain keys for a specific textbox
+                if (textboxId === "txtPassword") {
+                    const allowedCharacters = /[a-zA-Z0-9~`^{}\[\]\\\-!@#$%^&*()_+=|:;"'<>,.?/\\]/;
+                    if (!allowedCharacters.test(event.key)) {
+                        event.preventDefault(); // Block disallowed characters
+                        console.log("Blocked key: ", event.key);
+                    }
+                }
+            }
+            else {
+                var sValue = event.key;
+                var pattern = /^[A-Za-z0-9 \.\,\:\;\'\?\/\!\#\$\%\&\*\-\_\*\=\+\(\)]*$/;
+                if (pattern.test(sValue) || event.keyCode == 64) {
+                }
+                else {
+                    event.preventDefault();
+                }
+            }
+
+        });
+
+        // Commenting this code due to analysis completed but need to enable once the implementation starts
+        /* document.addEventListener("input", function (e) {                       
+             if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") {
+                 var inputValue = e.target.value;
+                 console.log("Input value:", inputValue);
+                 inputValue = inputValue.replace(/[\u2018\u2019]/g, "'"); // curly single quotes → straight quote
+                 //inputValue = inputValue.replace(/[\u201C\u201D]/g, '"'); // curly double quotes → straight quote
+ 
+                 const allowedCharacters = /[a-zA-Z0-9~`^{}\[\]\\\-!@#$%^&*()_+=|:;"'<>,.?/\\]/;
+                 if (!allowedCharacters.test(inputValue)) {
+                     event.preventDefault(); // Block disallowed characters
+                     e.target.value = "";
+                     //sweet alert
+                     if (inputValue)
+                         swal("", 'The entered character is not allowed.', "warning");
+                     return false;
+                 }
+                 else {
+                     e.target.value = inputValue;
+                 }
+             }
+         });
+         */
+
+    });
+
+</script>

@@ -1,0 +1,12 @@
+[project]
+name = "virginia"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bs4>=0.0.2",
+    "crawl4ai>=0.7.1",
+    "requests>=2.32.4",
+    "selenium>=4.34.2",
+]
